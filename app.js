@@ -12,6 +12,7 @@ box.addEventListener('keydown', function(event) {
 enter.addEventListener('click', function(){ // Checks for click
   var input = document.getElementById("inputSnt").value; // defines the input by taking the value of the text box when 
   inputArray = input.split(" ");
+  debug = input.split(" ");
   for (let i = 0;i < inputArray.length; i++) {
     var num = inputArray.includes("0") || inputArray.includes("1") || inputArray.includes("2") || inputArray.includes("4") || inputArray.includes("5") || inputArray.includes("6") || inputArray.includes("7") || inputArray.includes("8") || inputArray.includes("9"); //Checks for numbers - Need to optimize
     if (num == true) { 
@@ -36,6 +37,8 @@ enter.addEventListener('click', function(){ // Checks for click
       inputArray[i] = inputArray[i].slice(2) + "chay";
     } else if (inputArray[i].startsWith("sh")) {
       inputArray[i] = inputArray[i].slice(2) + "shay";
+    } else if (inputArray[i].includes(" ")) { // Fix this - Needs to remove empty strings with no text
+      inputArray[i] = inputArray[i];
     } else {
       var firstLetter = inputArray[i].slice(0, 1);
       inputArray[i] = inputArray[i].slice(1) + firstLetter + "ay";
@@ -46,6 +49,7 @@ enter.addEventListener('click', function(){ // Checks for click
   };
   document.getElementById("output").innerHTML = output;
   console.log(inputArray);
+  console.log(debug);
 });
 
 

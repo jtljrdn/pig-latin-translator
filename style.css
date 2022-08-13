@@ -37,3 +37,28 @@ code {
   text-align: center;
 }
 
+h1 {
+  font-size: 3vw;
+}
+
+h2 {
+  font-size: 1.75vw;
+}
+
+h3 {
+  font-size: 1.25vw;
+}
+
+h5 {
+  font-size: 1vw;
+}
+#link:visited {
+  color: #C431FE;
+}
+#link{
+  text-decoration: none;
+  color: #C431FE;
+}
+#link:hover {
+  text-decoration: underline;
+}
