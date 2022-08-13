@@ -43,7 +43,7 @@ enter.addEventListener('click', function(){ // Checks for click
       var firstLetter = inputArray[i].slice(0, 1);
       inputArray[i] = inputArray[i].slice(1) + firstLetter + "ay";
     };
-
+    document.getElementById("box").style.display = "block";
     output = inputArray.join(" ");
 
   };

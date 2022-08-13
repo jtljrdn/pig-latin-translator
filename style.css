@@ -36,6 +36,17 @@ code {
   align-items: center;
   text-align: center;
 }
+p {
+  overflow-wrap: normal;
+}
+
+#box {
+  border: 1px solid #C431FE;
+  border-radius: 10px;
+  padding: 0.1rem;
+  background-color: #383838;
+  display: none;
+}
 
 h1 {
   font-size: 5vh;
@@ -53,13 +64,13 @@ h3 {
 h5 {
   font-size: 2vh;
 }
-#link:visited {
+.link:visited {
   color: #C431FE;
 }
-#link{
+.link{
   text-decoration: none;
   color: #C431FE;
 }
-#link:hover {
+.link:hover {
   text-decoration: underline;
 }
