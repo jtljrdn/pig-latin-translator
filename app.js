@@ -35,6 +35,8 @@ enter.addEventListener('click', function(){ // Checks for click
       inputArray[i] = inputArray[i].slice(2) + "flay";
     } else if (inputArray[i].startsWith("ch")) {
       inputArray[i] = inputArray[i].slice(2) + "chay";
+    } else if (inputArray[i].startsWith("ch")) {
+      inputArray[i] = inputArray[i].slice(2) + "scay";
     } else if (inputArray[i].startsWith("sh")) {
       inputArray[i] = inputArray[i].slice(2) + "shay";
     } else if (inputArray[i].includes(" ")) { // Fix this - Needs to remove empty strings with no text
@@ -48,8 +50,8 @@ enter.addEventListener('click', function(){ // Checks for click
 
   };
   document.getElementById("output").innerHTML = output;
-  console.log(inputArray);
-  console.log(debug);
+  console.log("array: " + inputArray);
+  console.log("input: " + debug);
 });
 
 
