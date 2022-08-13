@@ -38,19 +38,20 @@ code {
 }
 
 h1 {
-  font-size: 3vw;
+  font-size: 5vh;
+  padding: 5px;
 }
 
 h2 {
-  font-size: 1.75vw;
+  font-size: 3.25vh;
 }
 
 h3 {
-  font-size: 1.25vw;
+  font-size: 2.5vh;
 }
 
 h5 {
-  font-size: 1vw;
+  font-size: 2vh;
 }
 #link:visited {
   color: #C431FE;
