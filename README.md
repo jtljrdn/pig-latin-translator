@@ -5,5 +5,5 @@ https://bungbloopity.github.io/pig-latin-translator/
 
 
 ### todo
-- add a reset button
+- ~~add a reset button~~
 - make less janky
