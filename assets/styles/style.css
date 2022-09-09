@@ -1,0 +1,79 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #18191A;
+  color: whitesmoke;
+}
+
+code {
+  background: #444444;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+p {
+  overflow-wrap: normal;
+}
+
+#box {
+  border: 1px solid #C431FE;
+  border-radius: 10px;
+  padding: 0.1rem;
+  background-color: #383838;
+  display: none;
+  inline-size: 400px;
+  overflow-wrap: normal;
+  max-block-size: 50%;
+}
+
+h1 {
+  font-size: 5vh;
+  padding: 5px;
+}
+
+h2 {
+  font-size: 3.25vh;
+}
+
+h3 {
+  font-size: 2.5vh;
+}
+
+h5 {
+  font-size: 2vh;
+}
+.link:visited {
+  color: #C431FE;
+}
+.link{
+  text-decoration: none;
+  color: #C431FE;
+}
+.link:hover {
+  text-decoration: underline;
+}
